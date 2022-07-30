@@ -1,0 +1,142 @@
+@import '~antd/dist/antd.css';
+/* GENERAL */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+
+.mainLayout .ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+  z-index: 999;
+}
+
+.sitecontainer {
+  background-color:whitesmoke;
+  padding: 2px 0;
+}
+
+
+/* ------------------------------------------- */
+
+.main-nav {
+  margin: auto;
+  padding: 5px;
+}
+
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+.header-right .ant-anchor{
+    display: flex;
+    font-size: 12px;
+}
+
+.header-right .ant-anchor-link {
+  padding: 0 10px;
+  line-height: 1.4;
+  position: relative;
+}
+
+.header-right .ant-anchor-ink {
+  display: none;
+}
+
+.header-left .ant-anchor{
+  display: flex;
+  font-size: 12px;
+}
+
+.header-left .ant-anchor-link {
+  padding: 0 10px;
+  line-height: 1.4;
+  position: relative;
+}
+
+.header-left .ant-anchor-ink {
+  display: none;
+}
+
+
+.nav-wrapper {
+  padding: 5px 0;
+  line-height: 1.2;
+}
+
+.logo {
+  text-align: center;
+  z-index: 1;
+}
+
+.logo h1 {
+  color: 333;
+  font-weight: 600;
+}
+
+.logo {
+  text-align: center;
+  align-items: center;
+}
+
+.shop-icon {
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+.header-lower .ant-menu{
+  background: none !important;
+  border: 0;
+  font-size: 12px;
+}
+
+
+/* HERO SECTION */
+
+.mainHero {
+  margin: 10px 2rem;
+}
+
+.hero-banner {
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.hero-menu .ant-menu {
+  font-size: 10px;
+}
+
+.col-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner .col-right {
+  display: block!important;
+}
+
+.hero-card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.card {
+  background-color: #fff;
+  margin: 2px;
+  padding: 5px;
+}
